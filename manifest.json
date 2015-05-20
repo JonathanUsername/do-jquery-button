@@ -8,7 +8,7 @@
   },
   "background": { "scripts": ["background.js"] },
   "content_scripts": [{
-    "matches": [ "http://*/*", "https://*/*" ],
+    "matches": [ "<all_urls>" ],
     "js": [ "jquery.min.js", "content.js" ]
   }],
   "permissions": [ "<all_urls>" ]
